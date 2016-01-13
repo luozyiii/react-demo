@@ -14,7 +14,7 @@
 
 
 ##注意：
-####\#1.win下安装不了node-sass 需先安装ruby,再安装node-sass
+####\#1.window下安装不了node-sass 需先安装ruby,再安装node-sass
 
 ####\#2.window下执行打包目录报错 直接执行下面语句即可打包
 
