@@ -6,13 +6,13 @@ import './home.scss';
 export default class Home extends React.Component {
 	render() {
 		return ( 
-			< div className = "" >
-				<h1>酷窝移动版</h1>
-				<div className = "icon"></div>
-				<a href="vip/index.html">会员</a>
+			<div>
+				<div>
+					首页
+				</div>
 
 				<Menu />
-			< /div>
+			</div>
 		);
 	}
 }

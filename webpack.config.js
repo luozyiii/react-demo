@@ -5,6 +5,9 @@ var config = {
 	entry: {
 		'common/common': path.resolve(__dirname, 'app/views/common/common.js'),
 		'home/home': path.resolve(__dirname, 'app/views/home/home.js'),
+		'found/found': path.resolve(__dirname, 'app/views/found/found.js'),
+		'mes/mes': path.resolve(__dirname, 'app/views/mes/mes.js'),
+		'my/my': path.resolve(__dirname, 'app/views/my/my.js'),
 		'vip/vip': path.resolve(__dirname, 'app/views/vip/vip.js'),
 		vendors: ['react'] // 其他库
 	},

@@ -1,5 +1,76 @@
 .ui-menu {
+	position: fixed;
+	z-index:9;
+	bottom: 0;
 	width: 100%;
-	height: 2rem;
-	background-color: red;
+	height: 9.8rem;
+	border-top:1px solid #e5e5e5;
+	background-color: #fff;
+	overflow: hidden;
+	clear: none;
+	.item {
+		float: left;
+		width: 20%;
+		text-align: center;
+		.icon-home,.icon-found,.icon-mes,.icon-my {
+			display: block;
+			margin: 1.4rem auto 0.4rem;
+			width: 5.0rem;
+			height: 5.0rem;
+			background-image: url("../../public/images/icon-home.png");
+			background-size: 100%;
+		}
+		.icon-found {
+			background-image: url("../../public/images/icon-found.png");
+		}
+		.icon-mes {
+			background-image: url("../../public/images/icon-mes.png");
+		}
+		.icon-my {
+			background-image: url("../../public/images/icon-my.png");
+		}
+		a {
+			text-decoration: none;
+			color: #2d2d2d;
+			font-size:2.4rem;
+		}
+		.add {
+			position: relative;
+			display: block;
+			width: 7.6rem;
+			height: 7.6rem;
+			margin: 1rem auto 0;
+			border-radius: 999px;
+			background-color: #d2252f;
+			.icon-add {
+				position: absolute;
+				display: block;
+				top:50%;
+				left: 50%;
+				width: 4.0rem;
+				height: 4.0rem;
+				margin-left: -2rem;
+				margin-top: -2rem;
+				background-image: url("../../public/images/icon-add.png");
+				background-size: 100%;
+			}
+		}
+	}
+	.item.active {
+		.icon-home {
+			background-image: url("../../public/images/icon-home-active.png");
+		}
+		.icon-found {
+			background-image: url("../../public/images/icon-found-active.png");
+		}
+		.icon-mes {
+			background-image: url("../../public/images/icon-mes-active.png");
+		}
+		.icon-my {
+			background-image: url("../../public/images/icon-my-active.png");
+		}
+		a {
+			color: #d2252f;
+		}
+	}
 }
