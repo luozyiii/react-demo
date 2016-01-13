@@ -1,10 +1,16 @@
-步骤：
+##\#步骤：
 
-1. npm install //安装模块
+###\#1. 安装模块
 
-2. npm run dev //调试
+	npm install
 
-3. npm run deploy //发布打包到dist目录
+###\#调试
+
+	npm run dev
+
+###\#发布打包到dist目录
+
+	npm run deploy
 
 
 注：
