@@ -1,0 +1,31 @@
+{
+  "name": "m-cowork",
+  "version": "1.0.0",
+  "description": "酷窝移动版",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server --devtool eval --progress --colors --hot --content-base build",
+    "deploy": "NODE_ENV=production webpack -p --config webpack.production.config.js"
+  },
+  "author": "lowry",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.4.0",
+    "babel-loader": "^6.2.1",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.8.5",
+    "node-sass": "^3.4.2",
+    "react-dom": "^0.14.6",
+    "sass-loader": "^3.1.2",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.11"
+  },
+  "dependencies": {
+    "react": "^0.14.6",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
